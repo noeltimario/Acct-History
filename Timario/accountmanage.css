@@ -1,0 +1,145 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #E9F0F9;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 1200px;
+    min-height: 100vh;
+}
+
+nav {
+    width: 250px;
+    height: 100vh;
+    background-color: #F4F7FD;
+    padding-left: 20px;
+    border-right: 2px solid #0000;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+  }
+  
+
+.nav_item {
+    font-size: 20px;
+    padding-left: 15px;
+    color: #000;
+}
+
+.main-content {
+    padding: 20px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.accordion {
+    width: 984px;
+height: 24px;
+top: 279px;
+left: 295px;
+gap: 0px;
+opacity: 0px;
+
+    margin-top: 20px;
+}
+
+.accordion-item {
+    
+
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.accordion-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.accordion-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.accordion-item input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.accordion-item input[type="password"] {
+    display: block;
+    width: 219px; /* Adjusted width */
+    height: 31px; /* Adjusted height */
+    padding: 5px; /* Adjusted padding to fit height */
+    margin-bottom: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the total size */
+}
+
+.accordion-item button {
+    background-color: #00A1FF;  /* Blue background color */
+    color: white;               /* White text */
+    border: none;               /* No border */
+    padding: 10px 20px;         /* Padding for size */
+    border-radius: 5px;         /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
+    font-size: 16px;            /* Font size for the text */
+    transition: background-color 0.3s ease;  
+}
+
+.accordion-item button:hover {
+    background-color: #008DCC;  /* Darker blue on hover */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: #E9F3FF;
+    border-top: 1px solid #E0E0E0;
+}
+
+footer p {
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #777;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media img {
+    margin: 0 10px;
+}
